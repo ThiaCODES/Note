@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 3.2% 49.6%,
+    rgba(159, 140, 174, 0.87) 0%,
+    rgba(161, 10, 144, 0.72) 83.6%
+  );
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+img {
+  width: 30px;
+}
+#createBtn {
+  border-radius: 100px;
+  width: 120px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgba(179, 4, 159, 0.831);
+}
+.textContainer {
+  position: relative;
+  width: 300px;
+  min-height: 150px;
+  margin-top: 20px;
+  outline: none;
+  background-color: aqua;
+  cursor: text;
+}
+.note-container .text {
+  background-color: white;
+  color: black;
+  width: 300px;
+  min-height: 150px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#trash {
+  position: absolute;
+  right: 10%;
+  bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
